@@ -25,3 +25,6 @@ An interactive web app that uses a LLaMA 7B language model to classify emotions 
 2. install required pip installs
    ```bash
    pip install gradio transformers torch huggingface_hub difflib3 python-dotenv
+3. Generate HuggyFace Access token and replace the following with your own token
+   ```bash
+   login(token="HF KEY")
