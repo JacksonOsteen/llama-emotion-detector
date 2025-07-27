@@ -3,10 +3,17 @@
 An interactive web app that uses a LLaMA 7B language model to classify emotions from user-input text.
 
 ## Features
-
+v1
 - Detects emotions such as joy, sadness, anger, fear, love, gratitude, and neutrality
 - Displays a confidence percentage for the predicted emotion
 - Built with Hugging Face Transformers and Gradio for an easy-to-use web interface
+v2
+- better detection
+- excludes the percentage correct estimate
+v3
+- utilizes a different GUI based around paragraph by paragraph emotion classification
+- mood detection is done on a paragraph by paragraph basis
+- main emotion detection feature that tallys all of the paraghraphs and detects the main emotion from the entire text
 
 ## Installation
 
